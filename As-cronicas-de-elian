@@ -1,0 +1,11 @@
+# Clonar o repositório vazio
+git clone https://github.com/SEU_USUARIO/as-cronicas-de-elian.git
+cd as-cronicas-de-elian
+
+# Copiar seu arquivo para a pasta do repositório
+cp /caminho/do/arquivo/as_cronicas_de_elian.html .
+
+# Enviar para o GitHub
+git add .
+git commit -m "Primeiro upload do site"
+git push origin main
